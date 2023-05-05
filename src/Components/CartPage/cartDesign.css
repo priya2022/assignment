@@ -1,0 +1,14 @@
+.cartMain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin:auto;    
+    height: 100vh;
+}
+.cartDesign{
+    background-color: beige;
+    width:500px;
+    text-align: center;
+    
+}
