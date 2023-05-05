@@ -1,0 +1,180 @@
+.main{
+    
+    float:left;
+    margin-left:10px;
+    min-height: 100%;
+    position:relative;
+    width:45%;
+    
+
+}
+.more{
+    display:none
+}
+
+.card{
+    display: inline-block;
+ 
+}
+.cardDesign{
+    width:100%;
+      height: 100vh; 
+    background-color: rgb(237, 243, 243);
+    box-shadow: 5px 5px 10px grey;
+}
+.cardDesign > img{
+    width:100%;
+      height: 50%;
+}
+
+.cardDesign .btn-custom{
+    font-weight: 500;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    font-size:28px;
+    padding:8px 25px;
+    float:right;
+   display: flex;
+   position:absolute;
+   bottom:10%;
+   background-color:rgb(148, 27, 27);
+   box-shadow:5px 5px 10px grey;
+   right:10%;
+   
+}
+.title,.text{
+font-size:1rem;
+font-weight: bold;
+
+}
+.title{
+    color:blueviolet;
+    font-size:2rem;
+    font-style: italic;
+    letter-spacing:5px;
+    margin-bottom:50px;
+}
+.text{
+    color:rgb(224, 49, 78);
+    text-indent: 22px;
+    font-size:32px;
+    border:2px groove rgb(222, 184, 222);
+    padding:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+.btn-custom:hover{
+   border-bottom:1px solid gray;
+   border-right:1px solid gray;
+   box-shadow: 5px 5px 10px grey;
+   border-left:1px solid gold;
+   border-top:1px solid gold;
+   
+   
+}
+
+
+.newCard{
+   float:left;
+  
+    color:blue;
+    line-height: 33px;
+    box-shadow: 5px 5px 10px grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(202, 202, 202, 0.63);
+    padding:20px;
+    margin-bottom:20px;
+    position: absolute;
+    padding-top:50px;
+
+}
+.newCard h2{
+    padding:50px;
+    padding-left:20px;
+    color:rgb(71, 34, 164);
+    font-weight: 800;
+    font-size:32px;
+    text-indent:33px;
+    text-decoration: underline;
+}
+.newCard ul li::before {
+ content: "\2022";
+  color: rgb(243, 130, 168);
+  font-weight: 900;
+  font-size: 1.2em;
+}
+.newCard ul li{
+    list-style-type:none;
+    line-height: 62px;
+    margin-bottom:40px;
+}
+@media screen and (max-width:810px)
+{
+   
+    .main{
+        float:none;
+        width:80%;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    .newCard{
+        margin-left:10%;
+    }
+    
+}
+@media screen and (max-width:710px)
+{
+    
+    .main{
+        width:90%;
+        float:none;
+        margin:auto;
+        margin-bottom:20px;
+    }
+    .newCard{
+        margin-left:5%;
+    }
+    .newCard h2{
+        font-size:22px;
+    }
+    
+}
+@media screen and (max-width:1000px)
+{
+    
+    .main{
+        float:none;
+        width:80%;
+        margin:auto;
+        margin-bottom:20px;
+    }
+
+.newCard{
+    margin-left:10%;
+}
+    
+    
+}
+@media screen and (max-width:1500px)
+{
+    
+    .main{
+        float:left;
+        
+        margin-left:5%;
+        margin-bottom:20px;
+    }  
+}
+
+@media screen and (max-width:2000px)
+{
+    
+    .newCard{
+        width:40%;
+        
+    }
+    .cardDesign{
+        width:80%;
+        margin-left:22%;
+    }
+}

@@ -1,0 +1,87 @@
+.card>.img{
+    width:100%;    
+}
+
+ .myCard{
+    box-shadow: 5px 5px 10px grey;
+    height: 470px;
+    width:300px;
+    font-size: 19px;
+    background-color: rgb(239, 234, 234);    
+    justify-content: center;
+    align-items:center;
+    margin-bottom:20px; 
+    text-align:center;
+    
+
+} 
+.myCard:hover{
+    background-color: rgb(166, 200, 229);
+    color:white;
+
+} 
+.container{
+    background-color: palegoldenrod;
+    display: grid;    
+    grid-template-rows: repeat(3,1.2fr);
+    grid-template-columns: repeat(3,1.2fr);
+    
+    
+}
+
+
+
+ 
+@media screen and (max-width:500px)and ( max-width:600px) 
+{
+   
+   
+  
+    .myCard{
+        height: 400px;
+        width:250px;
+        
+
+    }
+    .container{
+        margin-left:-8%;        
+        display: grid;    
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+     
+
+}
+@media screen and (max-width:442px)and ( max-width:400px) and (max-width:300px)
+{
+   
+    
+  
+    .myCard{
+        height: 500px;
+        width:332px;
+    }
+    .container{
+        background-color: rgb(118, 30, 27);
+        display: grid;    
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+     
+
+}
+
+@media screen and (max-width:200px)
+{
+    
+    .container{
+        display: grid;        
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+     
+
+}
