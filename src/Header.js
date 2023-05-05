@@ -6,7 +6,7 @@ const Header = () => {
     <>
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-   <Link> <img class="navbar-brand " src='../../../../images/logo.png'style={{width:"200px", height:"70px"}} alt=""href="#"/></Link>   
+   <Link> <img class="navbar-brand " src="https://i.ibb.co/FxsQwD5/logo.png" style={{width:"200px", height:"70px"}} alt=""href="#"/></Link>   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
